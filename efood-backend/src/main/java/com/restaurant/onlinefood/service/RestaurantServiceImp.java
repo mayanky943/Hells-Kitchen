@@ -8,11 +8,13 @@ import com.restaurant.onlinefood.repository.AddressRepository;
 import com.restaurant.onlinefood.repository.RestaurantRepository;
 import com.restaurant.onlinefood.repository.UserRepository;
 import com.restaurant.onlinefood.request.CreateRestaurantRequest;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class RestaurantServiceImp implements RestaurantService{
 
     private RestaurantRepository restaurantRepository;
