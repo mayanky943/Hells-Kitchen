@@ -3,6 +3,7 @@ package com.restaurant.onlinefood.request;
 import com.restaurant.onlinefood.model.Category;
 import com.restaurant.onlinefood.model.IngredientsItem;
 import lombok.Data;
+import lombok.Getter;
 
 import java.util.List;
 
@@ -17,4 +18,6 @@ public class CreateFoodRequest {
     private boolean vegetarian;
     private boolean seasonal;
     private List<IngredientsItem> ingredients;
+    
+    
 }
